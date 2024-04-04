@@ -1,0 +1,166 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 12px 16px;
+    height: 80px; 
+    position: relative;
+
+    @media (min-width: 1024px) {
+        height: 100px;
+    }
+}
+
+/* .logo {
+    margin-right: 111px;
+} */
+
+/* .hiddenMenu {
+    visibility: hidden;
+    @media (min-width: 768px) {
+        visibility: visible;
+        display: flex;
+        justify-content: space-between;
+      };
+    } */
+
+@media screen and (min-width: 768px) {
+    .dropDown { display: none;}
+  }
+
+
+
+.hiddenMenuUl {
+    visibility: hidden;
+    @media (min-width: 768px) {
+        margin-left: 111px;
+        visibility: visible;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 30px;
+        position: absolute;
+        /* left: 50px; */
+        left: 5%;
+      };
+    }
+   
+   
+
+
+.hiddenMenuUltwo {
+    visibility: hidden;
+    @media (min-width: 768px) {
+        visibility: visible;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 200px;
+      };
+}
+
+.avatar {
+    size: 500px;
+}
+
+.hiddenMenuUl a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* .christians {
+   display: flex;
+
+}
+
+
+.satana {
+    display: flex;
+    align-items: center;
+    float: right;
+} */
+
+.hiddenButton {
+    display: block;
+    background-color: #FFB36C;
+    color: black;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-right: 27px;
+}
+
+.menu {
+    
+    margin: 0 auto;
+    width:100%;
+    padding: 15px;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+
+.menuFlex {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.menuButton {
+    border:none;
+    outline:none;
+    background-color:transparent;
+
+}
+
+
+/* .mainInformation {
+    
+} */
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonMenu {
+    background-color: #FFB36C;
+    color: black;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.logout {
+    background-color: #FFB36C;
+    color: black;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+

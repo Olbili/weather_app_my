@@ -1,0 +1,27 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    cursor: grab;
+  }
+  
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 400px;
+    height: 250px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .sliderContainer{
+        display: none;
+    }
+  } 
+  

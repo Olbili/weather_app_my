@@ -1,0 +1,43 @@
+.footer {
+    background-color: #FFB36C;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    flex-direction: column;
+    /* height: ; */
+    /* margin */
+    @media (min-width: 768px) {
+       flex-direction: row;
+       align-items: center;
+      }
+}
+
+.headerlogoadress {
+    display: flex;
+    margin-bottom: 25px;
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+        margin-right: 100px;
+       }
+}
+
+.headerlogoadress h3 {
+    @media (min-width: 768px) {
+        margin-bottom: 20px;
+       }
+}
+
+.contacts h3 {
+    @media (min-width: 768px) {
+        margin-bottom: 20px;
+       }
+}
+.logo {
+    margin-right: 75px;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}

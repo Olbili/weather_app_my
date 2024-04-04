@@ -1,0 +1,48 @@
+/* .charted {
+    margin-top: 70px;
+    background-color: #E8E8E8;
+    padding: 45px;
+    border-radius: 20px;
+} */
+
+/* .charted {
+    margin: 20px 10px;
+    background-color: #E8E8E8;
+    padding: 45px;
+    border-radius: 20px;
+  
+    @media (max-width: 768px) {
+      padding: 20px;
+      border-radius: 10px;
+    }
+  }
+  
+  canvas {
+    height: 250px;
+  
+    @media (max-width: 768px) {
+      height: 150px;
+    }
+  }
+  
+  .chartjs-legend {
+    position: bottom;
+  }
+  
+  .chartjs-axis-y .chartjs-tick-label,
+  .chartjs-axis-x .chartjs-tick-label {
+    font-size: 12px;
+  } */
+
+  .charted {
+    margin-top: 70px;
+    background-color: #E8E8E8;
+    padding: 45px;
+    border-radius: 20px;
+  }
+  
+  .line {
+    width: 100% !important; 
+    height: 100% !important; 
+  }
+  

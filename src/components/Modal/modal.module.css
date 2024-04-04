@@ -1,0 +1,95 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 101;
+}
+
+
+
+.modalWrapper {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.closeModal {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background: none;
+}
+
+.h1 {
+  color: black;
+}
+
+.logout {
+  background-color: #FFB36C;
+  color: black;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+.sign {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  margin-bottom: 15px;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.labelForm {
+  font-weight: 500;
+  text-align: left;
+}
+
+.inputForm {
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background-color: #CCC;
+  border-radius: 7px;
+  width: 100%
+}
+
+.buttonForm {
+  background-color: #FFB36C;
+  color: black;
+  padding: 10px 20px;
+  width: 50%;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  margin: 0 auto;
+};
